@@ -1,0 +1,10 @@
+import string
+ch = input("Enter a character: ")  # Assign a value to 'ch'
+if ch.isalpha():
+  ch = ch.upper()
+  if ch in 'AEIOU':
+    print(ch + " is a vowel")
+  else:
+    print(ch + " is a consonant")
+else:
+  print(ch + " is an invalid input")
